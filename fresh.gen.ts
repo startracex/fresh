@@ -4,12 +4,12 @@
 
 import config from "./deno.json" assert { type: "json" };
 import * as $0 from "./routes/[name].tsx";
-import * as $1 from "./routes/api/joke.ts";
-import * as $2 from "./routes/api/r.ts";
-import * as $3 from "./routes/c.tsx";
-import * as $4 from "./routes/github/[username].tsx";
+import * as $1 from "./routes/_404.tsx";
+import * as $2 from "./routes/_500.tsx";
+import * as $3 from "./routes/about.tsx";
+import * as $4 from "./routes/api/joke.ts";
 import * as $5 from "./routes/index.tsx";
-import * as $6 from "./routes/overview.tsx";
+import * as $6 from "./routes/next.tsx";
 import * as $7 from "./routes/search.tsx";
 import * as $$0 from "./islands/Countdown.tsx";
 import * as $$1 from "./islands/Counter.tsx";
@@ -17,12 +17,12 @@ import * as $$1 from "./islands/Counter.tsx";
 const manifest = {
   routes: {
     "./routes/[name].tsx": $0,
-    "./routes/api/joke.ts": $1,
-    "./routes/api/r.ts": $2,
-    "./routes/c.tsx": $3,
-    "./routes/github/[username].tsx": $4,
+    "./routes/_404.tsx": $1,
+    "./routes/_500.tsx": $2,
+    "./routes/about.tsx": $3,
+    "./routes/api/joke.ts": $4,
     "./routes/index.tsx": $5,
-    "./routes/overview.tsx": $6,
+    "./routes/next.tsx": $6,
     "./routes/search.tsx": $7,
   },
   islands: {
